@@ -1,10 +1,9 @@
-# F1 Race Replay 🏎️ 🏁
+# F1 | Qualifying | Sprint | Race - Replay 🏎️ 🏁
 
 A Python application for visualizing Formula 1 race telemetry and replaying race events with interactive controls and a graphical interface.
 
 ![Race Replay Preview](./resources/preview.png)
 
-> **HUGE NEWS:** The telemetry stream feature is now in a usable state. See the [telemetry demo documentation](./telemetry.md) for access instructions, data format details, and usage ideas.
 
 ## Features
 
@@ -72,13 +71,6 @@ The SC position computation happens in `_compute_safety_car_positions()` in `src
 
 Recently added support for Qualifying session replays with telemetry visualization including speed, gear, throttle, and brake over the lap distance. This feature is still being refined.
 
-## Requirements
-
-- Python 3.11+
-- [FastF1](https://github.com/theOehrly/Fast-F1)
-- [Arcade](https://api.arcade.academy/en/latest/)
-- numpy
-
 Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -92,8 +84,8 @@ To get started with this project locally, you can follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/IAmTomShaw/f1-race-replay
-    cd f1-race-replay
+   git clone https://github.com/domwokorach/Wokorach-f1-track-replay.git
+    cd wokorach-f1-track-replay
     ```
 2. **Create a Virtual Environment:**
     This process differs based on your operating system.
@@ -249,11 +241,6 @@ Please see [roadmap.md](./roadmap.md) for planned features and project vision.
 
 This project is licensed under the MIT License.
 
-## ⚠️ Disclaimer
-
-No copyright infringement intended. Formula 1 and related trademarks are the property of their respective owners. All data used is sourced from publicly available APIs and is used for educational and non-commercial purposes only.
-
 ---
 
-Built with ❤️ by [Tom Shaw](https://tomshaw.dev)
-# Wokorach-f1-track-replay
+Built with ❤️ by [Wokorach]
